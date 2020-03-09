@@ -1,0 +1,94 @@
+{
+  "nodes": {
+    "IP": {
+      "maps": {
+        "ip": "analyze-ip-for-msexchange",
+        "hostname": "analyze-hostname-for-msexchange",
+        "ipFormat": "analyze-ip-format-for-msexchange",
+        "eventId": "",
+        "node_label": "default=IP",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "unique": "ip or hostname or domainControllerHostname"
+      }
+    },
+    "user": {
+      "maps": {
+        "userName": "analyze-username-for-msexchange",
+        "userId": "",
+        "node_label": "default=user",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "unique": "userName"
+      }
+    },
+    "email": {
+      "maps": {
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "default=email",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "unique": "messageID"
+      }
+    }
+  },
+  "edges": {
+    "hasIP": {
+      "maps": {
+        "usedTime": "datetime",
+        "counter": "default=1",
+        "edge_label": "default=hasIP",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "left": "user.userName(analyze-username-for-msexchange)",
+        "right": "IP.ip(analyze-ip-for-msexchange)"
+      }
+    },
+    "sentEmail": {
+      "maps": {
+        "eventTime": "datetime",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "default=1",
+        "edge_label": "default=sentEmail",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "left": "IP.ip(server-ip)",
+        "right": "email.messageID(message-id)"
+      }
+    },
+    "receivedEmail": {
+      "maps": {
+        "eventTime": "datetime",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "default=1",
+        "edge_label": "default=receivedEmail",
+        "dataSourceName": "default=msexchange"
+      },
+      "constraints": {
+        "left": "email.messageID(message-id)",
+        "right": "IP.ip(client-ip)"
+      }
+    }
+  },
+  "analyze": {
+    "ip-for-msexchange": "from=utils.DataExtractionUtilities&package=get_src_dst_ips_for_msexchange",
+    "hostname-for-msexchange": "from=utils.DataExtractionUtilities&package=get_src_dst_hostname_for_msexchange",
+    "username-for-msexchange": "from=utils.DataExtractionUtilities&package=get_src_dst_username_for_msexchange",
+    "ip-format-for-msexchange": "from=utils.DataExtractionUtilities&package=get_ip_format_for_msexchange"
+  }
+}

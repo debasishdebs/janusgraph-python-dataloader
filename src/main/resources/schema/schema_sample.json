@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "label": "IP",
+      "propertyKeys": {
+        "hostname": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "eventId": {"dataType":  "Integer", "cardinality":  "SET"},
+        "node_label": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "dataSourceName": {"dataType":  "String", "cardinality":  "SINGLE"}
+      }
+    },
+    {
+      "label": "process",
+      "propertyKeys": {
+        "fileName": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "filePath": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "fullFileName": {"dataType":  "String", "cardinality":  "SET"},
+        "Action": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "ActionStatus": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "node_label": {"dataType":  "String", "cardinality":  "SINGLE"},
+        "dataSourceName": {"dataType":  "String", "cardinality":  "SINGLE"}
+      }
+    }
+  ],
+  "edges": [
+    {
+      "label": "runningProcess",
+      "left": "IP",
+      "right": "process",
+      "multiplicity": "MULTI",
+      "propertyKeys": {
+        "eventTime": {"dataType": "Date", "cardinality": "SINGLE"},
+        "severityValue": {"dataType":"Integer", "cardinality": "SINGLE"},
+        "eventId": {"dataType": "Integer", "cardinality": "SET"},
+        "edge_label": {"dataType": "String", "cardinality": "SINGLE"},
+        "counter": {"dataType": "Integer", "cardinality": "SINGLE"},
+        "dataSourceName": {"dataType": "String", "cardinality": "SINGLE"}
+      }
+    }
+  ],
+  "index": {
+    "compositeIndex": [
+      {
+        "name": "hostname_cmp_idx",
+        "unique": "false",
+        "properties": ["hostname"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "eventid_cmp_idx",
+        "unique": "false",
+        "properties": ["eventId"],
+        "element": ["Vertex", "Edge"]
+      },
+      {
+        "name": "fileName_cmp_idx",
+        "unique": "false",
+        "properties": ["fileName"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "filePath_cmp_idx",
+        "unique": "false",
+        "properties": ["filePath"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "fullFileName_cmp_idx",
+        "unique": "false",
+        "properties": ["fullFileName"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "Action_cmp_idx",
+        "unique": "false",
+        "properties": ["Action"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "ActionStatus_cmp_idx",
+        "unique": "false",
+        "properties": ["ActionStatus"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "eventTime_cmp_idx",
+        "unique": "false",
+        "properties": ["eventTime"],
+        "element": ["Edge"]
+      },
+      {
+        "name": "counter_cmp_idx",
+        "unique": "false",
+        "properties": ["counter"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "edge_label_cmp_idx",
+        "unique": "false",
+        "properties": ["edge_label"],
+        "element": ["Edge"]
+      },
+      {
+        "name": "dataSourceName_cmp_idx",
+        "unique": "false",
+        "properties": ["dataSourceName"],
+        "element": ["Edge", "Vertex"]
+      },
+      {
+        "name": "node_label_cmp_idx",
+        "unique": "false",
+        "properties": ["node_label"],
+        "element": ["Vertex"]
+      }
+    ],
+    "mixedIndex": [
+      {
+        "name": "hostname_mxd_idx",
+        "unique": "false",
+        "properties": ["hostname"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "fileName_mxd_idx",
+        "unique": "false",
+        "properties": ["fileName"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "filePath_mxd_idx",
+        "unique": "false",
+        "properties": ["filePath"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "fullFileName_mxd_idx",
+        "unique": "false",
+        "properties": ["fullFileName"],
+        "element": ["Vertex"]
+      },
+      {
+        "name": "Action_mxd_idx",
+        "unique": "false",
+        "properties": ["Action"],
+        "element": ["Vertex"]
+      }
+    ],
+    "vertexCentricIndex": [
+      {
+        "name": "time_label_Eid_hasIP_idx",
+        "edge": "runningProcess",
+        "direction": "BOTH",
+        "order": "decr",
+        "properties": ["eventTime", "edge_label", "eventId"]
+      }
+    ]
+  }
+}

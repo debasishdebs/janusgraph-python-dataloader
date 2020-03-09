@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "IP": {
+      "maps": {
+        "hostname": "Hostname",
+        "eventId": "EventID",
+        "node_label": "default=IP",
+        "dataSourceName": "default=sepc"
+      },
+      "constraints": {
+        "unique": "hostname"
+      }
+    },
+    "process": {
+      "maps": {
+        "fileName": "FileName",
+        "filePath": "Path",
+        "fullFileName": "FullFileName",
+        "Action": "Action",
+        "ActionStatus": "ActionStatus",
+        "node_label": "default=process",
+        "dataSourceName": "default=sepc"
+      },
+      "constraints": {
+        "unique": "fullFileName"
+      }
+    }
+  },
+  "edges": {
+    "runningProcess": {
+      "maps": {
+        "eventTime": "EventTime",
+        "eventId": "EventID",
+        "edge_label": "default=runningProcess",
+        "counter": "default=1",
+        "dataSourceName": "default=sepc"
+      },
+      "constraints": {
+        "left": "IP.hostname(Hostname)",
+        "right": "process.fullFileName(FullFileName)"
+      }
+    }
+  },
+  "analyze": {
+  }
+}

@@ -1,0 +1,1906 @@
+{
+  "nodes": [
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Diana.Knight@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.55",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Camille.Wayne@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.25",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Emma.Hunt@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.64",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Ethan.Clark@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.70",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Flash.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.85",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Clark.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.30",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Daniel.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.41",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Madison.Clark@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.103",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Bruce.Cook@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.5",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Camille.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.19",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Ethan.Clark@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.70",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Bruce.Cook@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.5",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Diana.Knight@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.55",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Emma.Hunt@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.64",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Flash.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.85",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Daniel.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.41",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Clark.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.30",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Madison.Clark@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.103",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Camille.Wayne@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.25",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "userName": [
+          "news@baidu1.com",
+          "Camille.Gordon@acme.com"
+        ],
+        "userId": "",
+        "node_label": "user",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "IP",
+        "ip": [
+          "192.168.0.19",
+          "192.168.110.220"
+        ],
+        "hostname": [
+          "mail.ess.barracuda.com",
+          "SSDLWPEXC01"
+        ],
+        "ipFormat": [
+          "ipv4",
+          "ipv4"
+        ],
+        "eventId": "",
+        "node_label": "IP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "email",
+        "messageID": "message-id",
+        "messageBytes": "total-bytes",
+        "recipientCount": "recipient-count",
+        "emailSubject": "message-subject",
+        "msgInfo": "message-info",
+        "node_label": "email",
+        "dataSourceName": "msexchange"
+      }
+    ]
+  ],
+  "edges": [
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:01.652Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:01.652Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:01.652Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:15.265Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:15.265Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:15.265Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:16.199Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:16.199Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:16.199Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:17.187Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:17.187Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:17.187Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:21.852Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:21.852Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:21.852Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:25.161Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:25.161Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:25.161Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:31.208Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:31.208Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:31.208Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:35.996Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:35.996Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:35.996Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:42.732Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:42.732Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:42.732Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-05T08:30:43.830Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-05T08:30:43.830Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-05T08:30:43.830Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:04.348Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:04.348Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:04.348Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:06.757Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:06.757Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:06.757Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:07.859Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:07.859Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:07.859Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:09.608Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:09.608Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:09.608Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:17.995Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:17.995Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:17.995Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:22.912Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:22.912Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:22.912Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:36.689Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:36.689Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:36.689Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:47.515Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:47.515Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:47.515Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:48.673Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:48.673Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:48.673Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ],
+    [
+      {
+        "label": "hasIP",
+        "left": {
+          "propName": "user.userName",
+          "propVal": "analyze-username-for-msexchange"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "analyze-ip-for-msexchange"
+        },
+        "usedTime": "2019-08-06T08:30:53.688Z",
+        "counter": "1",
+        "edge_label": "hasIP",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "sentEmail",
+        "left": {
+          "propName": "IP.ip",
+          "propVal": "server-ip"
+        },
+        "right": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "eventTime": "2019-08-06T08:30:53.688Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "sentEmail",
+        "dataSourceName": "msexchange"
+      },
+      {
+        "label": "receivedEmail",
+        "left": {
+          "propName": "email.messageID",
+          "propVal": "message-id"
+        },
+        "right": {
+          "propName": "IP.ip",
+          "propVal": "client-ip"
+        },
+        "eventTime": "2019-08-06T08:30:53.688Z",
+        "severityValue": "",
+        "eventId": "",
+        "category": "",
+        "isAlert": "",
+        "counter": "1",
+        "edge_label": "receivedEmail",
+        "dataSourceName": "msexchange"
+      }
+    ]
+  ]
+}

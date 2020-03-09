@@ -1,0 +1,746 @@
+{
+  "nodes": [
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-2",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Bruce.Cook\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-16",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Flash.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-17",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Madison.Clark\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-20",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Clark.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-15",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Ethan.Clark\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-21",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Daniel.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-18",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Camille.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-19",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Camille.Wayne\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-22",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Diana.Knight\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-23",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Emma.Hunt\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-2",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Bruce.Cook\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-16",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Flash.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-17",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Madison.Clark\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-20",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Clark.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-15",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Ethan.Clark\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-21",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Daniel.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-18",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Camille.Gordon\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-19",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Camille.Wayne\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-22",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Diana.Knight\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "IP",
+        "hostname": "ACMECL-23",
+        "eventId": 51,
+        "node_label": "IP",
+        "dataSourceName": "sepc"
+      },
+      {
+        "label": "process",
+        "fileName": "XNAGS31_setup",
+        "filePath": "C:\\Users\\Emma.Hunt\\Downloads\\XNAGS31_setup.exe\\Downloads",
+        "fullFileName": "XNAGS31_setup.exe",
+        "Action": "Quarantine failed : Leave Alone failed.",
+        "ActionStatus": "red",
+        "node_label": "process",
+        "dataSourceName": "sepc"
+      }
+    ]
+  ],
+  "edges": [
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-2"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 09:45:44",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-16"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 10:15:45",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-17"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 10:25:15",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-20"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 10:38:46",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-15"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 11:04:08",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-21"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 11:14:17",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-18"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 12:19:01",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-19"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 13:19:03",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-22"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 14:04:54",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-23"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-05 15:05:05",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-2"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 09:45:59",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-16"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 10:15:09",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-17"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 10:25:14",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-20"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 10:38:02",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-15"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 11:04:40",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-21"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 11:14:49",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-18"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 12:19:30",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-19"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 13:19:17",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-22"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 14:04:50",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ],
+    [
+      {
+        "label": "runningProcess",
+        "left": {
+          "propName": "IP.hostname",
+          "propVal": "ACMECL-23"
+        },
+        "right": {
+          "propName": "process.fullFileName",
+          "propVal": "XNAGS31_setup.exe"
+        },
+        "eventTime": "2019-08-06 15:05:14",
+        "eventId": 51,
+        "edge_label": "runningProcess",
+        "counter": "1",
+        "dataSourceName": "sepc"
+      }
+    ]
+  ]
+}
