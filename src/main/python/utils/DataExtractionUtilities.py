@@ -33,7 +33,7 @@ def get_src_dst_hostname_for_msexchange(record):
 def get_src_dst_username_for_msexchange(record):
     srcUserKey = "sender-address"
     dstUserLey = "recipient-address"
-    return record[srcUserKey], record[dstUserLey]
+    return [record[srcUserKey], record[dstUserLey]]
 
 
 def get_ip_format_for_msexchange(record):
@@ -42,4 +42,4 @@ def get_ip_format_for_msexchange(record):
     src_ip_fmt = identify_if_ip_is_ip4_or_ip6(src_ip) if src_ip != "" else "NA"
     dst_ip_fmt = identify_if_ip_is_ip4_or_ip6(dst_ip) if dst_ip != "" else "NA"
 
-    return src_ip_fmt, dst_ip_fmt
+    return [src_ip_fmt, dst_ip_fmt]

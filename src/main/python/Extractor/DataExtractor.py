@@ -52,36 +52,11 @@ class DataExtractor(object):
             relationship = dict()
             dst_relationships = []
 
-            if label == "hasIP":
-                srcInfo, dstInfo = self.extract_left_right_info_for_hasIP(constraints, record)
+            relations_source_dst_info = self.extract_left_right_info_for_generic_edges(constraints, record)
 
-                srcRelationship["left"] = srcInfo["left"]
-                srcRelationship["right"] = srcInfo["right"]
-
-                dstRelationship["left"] = dstInfo["left"]
-                dstRelationship["right"] = dstInfo["right"]
-
-                srcRelationship["label"] = label
-                dstRelationship["label"] = label
-
-                for propName, propMap in maps_for_label.items():
-                    srcRelationship[propName] = self.get_property_from_map(record, propMap)
-                    dstRelationship[propName] = self.get_property_from_map(record, propMap)
-
-                if dstRelationship["left"]["propName"] == "user.userName" and ";" in dstRelationship["left"]["propVal"]:
-                    values = dstRelationship["left"]["propVal"].split(";")
-
-                    for val in values:
-                        tmp_rel = dict()
-
-                        tmp_rel.update({k: v for k, v in dstRelationship.items()})
-
-                        tmp_rel["left"]["propVal"] = val
-
-                        dst_relationships.append(tmp_rel)
-
-            else:
-                left, right = self.extract_relationship_left_right_info(constraints, record)
+            for src_dst_info in relations_source_dst_info:
+                left = src_dst_info["left"]
+                right = src_dst_info["right"]
 
                 relationship["label"] = label
                 relationship["left"] = left
@@ -90,23 +65,72 @@ class DataExtractor(object):
                 for propName, propMap in maps_for_label.items():
                     relationship[propName] = self.get_property_from_map(record, propMap)
 
-            if len(dst_relationships) == 0:
-                relationships_in_record = [relationship, srcRelationship, dstRelationship]
-            else:
-                relationships_in_record = [relationship, srcRelationship, *dst_relationships]
-
-            for r in relationships_in_record:
                 blank = False
-
-                if "left" in r:
-                    if r["left"]["propVal"] in ["", "-"] or r["right"]["propVal"] in ["", "-"]:
+                if "left" in relationship and "right" in relationship:
+                    if relationship["left"]["propVal"] in ["", "-", "NA"] or relationship["right"]["propVal"] in ["", "-", "NA"]:
                         # Invalid edge, when either's source of destination info isn't available
                         blank = True
                 else:
                     blank = True
 
                 if not blank:
-                    relationships.append(r)
+                    relationships.append(relationship)
+            #
+            # if label == "hasIP":
+            #     srcInfo, dstInfo = self.extract_left_right_info_for_hasIP(constraints, record)
+            #
+            #     srcRelationship["left"] = srcInfo["left"]
+            #     srcRelationship["right"] = srcInfo["right"]
+            #
+            #     dstRelationship["left"] = dstInfo["left"]
+            #     dstRelationship["right"] = dstInfo["right"]
+            #
+            #     srcRelationship["label"] = label
+            #     dstRelationship["label"] = label
+            #
+            #     for propName, propMap in maps_for_label.items():
+            #         srcRelationship[propName] = self.get_property_from_map(record, propMap)
+            #         dstRelationship[propName] = self.get_property_from_map(record, propMap)
+            #
+            #     if dstRelationship["left"]["propName"] == "user.userName" and ";" in dstRelationship["left"]["propVal"]:
+            #         values = dstRelationship["left"]["propVal"].split(";")
+            #
+            #         for val in values:
+            #             tmp_rel = dict()
+            #
+            #             tmp_rel.update({k: v for k, v in dstRelationship.items()})
+            #
+            #             tmp_rel["left"]["propVal"] = val
+            #
+            #             dst_relationships.append(tmp_rel)
+            #
+            # else:
+            #     left, right = self.extract_relationship_left_right_info(constraints, record)
+            #
+            #     relationship["label"] = label
+            #     relationship["left"] = left
+            #     relationship["right"] = right
+            #
+            #     for propName, propMap in maps_for_label.items():
+            #         relationship[propName] = self.get_property_from_map(record, propMap)
+            #
+            # if len(dst_relationships) == 0:
+            #     relationships_in_record = [relationship, srcRelationship, dstRelationship]
+            # else:
+            #     relationships_in_record = [relationship, srcRelationship, *dst_relationships]
+            #
+            # for r in relationships_in_record:
+            #     blank = False
+            #
+            #     if "left" in r:
+            #         if r["left"]["propVal"] in ["", "-"] or r["right"]["propVal"] in ["", "-"]:
+            #             # Invalid edge, when either's source of destination info isn't available
+            #             blank = True
+            #     else:
+            #         blank = True
+            #
+            #     if not blank:
+            #         relationships.append(r)
 
         return relationships
 
@@ -271,6 +295,141 @@ class DataExtractor(object):
                 propVal = propMap
 
         return propVal
+
+    def extract_left_right_info_for_generic_edges(self, constraints, record):
+        leftInfo = constraints["left"]
+        rightInfo = constraints["right"]
+
+        relations = [dict]
+
+        leftPropName = leftInfo.split("(")[0]
+        leftPropRecRef = leftInfo.split("(")[1][:-1]
+
+        rightPropName = rightInfo.split("(")[0]
+        rightPropRecRef = rightInfo.split("(")[1][:-1]
+
+        if "analyze" in leftPropRecRef and "analyze" in rightPropRecRef:
+            if ("+" in leftPropRecRef or "|" in leftPropRecRef) or ("+" in rightPropRecRef or "|" in rightPropRecRef):
+                raise NotImplementedError("Currently not implemented mixed mapper containing "
+                                          "'analyze' and '|' and '+'. Got mixed mapping in either left or right")
+
+            func_map = leftPropRecRef.split("analyze")[1][1:]
+            func_name = self.datamapper["analyze"][func_map]
+            module_name = func_name.split("&")[0].split("=")[1]
+            package_name = func_name.split("&")[1].split("=")[1]
+            func = getattr(__import__(module_name, fromlist=[package_name]), package_name)
+
+            leftValues = func(record)
+
+            func_map = rightPropRecRef.split("analyze")[1][1:]
+            func_name = self.datamapper["analyze"][func_map]
+            module_name = func_name.split("&")[0].split("=")[1]
+            package_name = func_name.split("&")[1].split("=")[1]
+            func = getattr(__import__(module_name, fromlist=[package_name]), package_name)
+
+            rightValues = func(record)
+
+            if len(leftValues) != len(rightValues):
+                # One-Many mapping when one can be either left or right
+                if len(leftValues) != 1 and len(rightValues) != 1:
+                    raise NotImplementedError("Expecting the length of output from custom functions of same length. "
+                                              "If inequal atleast one should be of length 1 so that either One-Many or "
+                                              "One-One mapping can be done for left and right")
+
+                # One-Many relationships when one is of length 1 and other of X
+                if len(leftValues) == 1:
+                    for val in rightValues:
+                        rel = {"left": {
+                            "propName": leftPropName,
+                            "propVal": leftValues[0]
+                        }, "right": {
+                            "propName": rightPropName,
+                            "propVal": val
+                        }}
+                        relations.append(rel)
+                else:
+                    # When there are multiple left but single right
+                    for val in leftValues:
+                        rel = {"left": {
+                            "propName": leftPropName,
+                            "propVal": val
+                        }, "right": {
+                            "propName": rightPropName,
+                            "propVal": rightValues[0]
+                        }}
+                        relations.append(rel)
+
+            else:
+                # One-One mapping when leftValues len = rightValue len
+                for i in range(len(leftValues)):
+                    leftVal = leftValues[i]
+                    rightVal = rightValues[i]
+
+                    rel = {"left": {
+                        "propName": leftPropName,
+                        "propVal": leftVal
+                    }, "right": {
+                        "propName": rightPropName,
+                        "propVal": rightVal
+                    }}
+                    relations.append(rel)
+
+        elif "analyze" in leftPropRecRef and "analyze" not in rightPropRecRef:
+            func_map = leftPropRecRef.split("analyze")[1][1:]
+            func_name = self.datamapper["analyze"][func_map]
+            module_name = func_name.split("&")[0].split("=")[1]
+            package_name = func_name.split("&")[1].split("=")[1]
+            func = getattr(__import__(module_name, fromlist=[package_name]), package_name)
+
+            leftValues = func(record)
+
+            rightVal = self.get_property_from_map(record, rightPropRecRef)
+
+            for leftVal in leftValues:
+                rel = {"left": {
+                    "propName": leftPropName,
+                    "propVal": leftVal
+                }, "right": {
+                    "propName": rightPropName,
+                    "propVal": rightVal
+                }}
+                relations.append(rel)
+
+        elif "analyze" not in leftPropRecRef and "analyze" in rightPropRecRef:
+            func_map = rightPropRecRef.split("analyze")[1][1:]
+            func_name = self.datamapper["analyze"][func_map]
+            module_name = func_name.split("&")[0].split("=")[1]
+            package_name = func_name.split("&")[1].split("=")[1]
+            func = getattr(__import__(module_name, fromlist=[package_name]), package_name)
+
+            rightValues = func(record)
+
+            leftVal = self.get_property_from_map(record, leftPropRecRef)
+
+            for rightVal in rightValues:
+                rel = {"left": {
+                    "propName": leftPropName,
+                    "propVal": leftVal
+                }, "right": {
+                    "propName": rightPropName,
+                    "propVal": rightVal
+                }}
+                relations.append(rel)
+
+        else:
+            leftVal = self.get_property_from_map(record, leftPropRecRef)
+            rightVal = self.get_property_from_map(record, rightPropRecRef)
+
+            rel = {"left": {
+                "propName": leftPropName,
+                "propVal": leftVal
+            }, "right": {
+                "propName": rightPropName,
+                "propVal": rightVal
+            }}
+            relations.append(rel)
+
+        return relations
 
     def extract_left_right_info_for_hasIP(self, constraints, record):
         # This can work with "analyze" reference in edge datamapper
